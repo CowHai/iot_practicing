@@ -21,7 +21,7 @@ pip install paho-mqtt
 
 Mở **2 terminal riêng biệt**:
 
-**Terminal 1 – Subscriber (chạy trước):**
+**Terminal 1 – Subscriber:**
 ```bash
 python subscriber_bai1.py
 ```
@@ -35,10 +35,14 @@ python publisher_bai1.py
 
 ![alt text](./captured_images/bai1/image-1.png)
 
-> **Kết quả**
+**KẾT QUẢ**
+
 **Publisher:** (Có thể gửi nhiều lần tùy biến của vòng lặp)
+
 ![alt text](./captured_images/bai1/image-2.png)
+
 **Subscriber:** (Đã dừng chương trình bằng Ctrl + C)
+
 ![alt text](./captured_images/bai1/image-3.png)
 
 ---
@@ -47,7 +51,7 @@ python publisher_bai1.py
 
 Mở **2 terminal riêng biệt**:
 
-**Terminal 1 – Monitor Subscriber (chạy trước):**
+**Terminal 1 – Monitor Subscriber:**
 ```bash
 python monitor_subscriber_bai2.py
 ```
@@ -61,10 +65,14 @@ python sensor_publisher_bai2.py
 
 ![alt text](./captured_images/bai2/image-1.png)
 
-> **Kết quả**
+**KẾT QUẢ**
+
 **Sensor Publisher:** (Nhiều sensor + Thông tin cách nhau từng dòng)
+
 ![alt text](./captured_images/bai2/image-2.png)
+
 **Monitor Subscriber:** (Có cảnh báo nhiệt độ cao, độ ẩm thấp)
+
 ![alt text](./captured_images/bai2/image-3.png)
 
 ---
@@ -89,13 +97,21 @@ python controller_bai3.py
 
 Nhập lệnh vào Terminal 2:
 - `ON` — bật đèn
+
 ![alt text](./captured_images/bai3/image-2.png)
+
 ![alt text](./captured_images/bai3/image-3.png)
+
 - `OFF` — tắt đèn
+
 ![alt text](./captured_images/bai3/image-4.png)
+
 ![alt text](./captured_images/bai3/image-5.png)
+
 - `EXIT` — thoát chương trình
+
 ![alt text](./captured_images/bai3/image-6.png)
+
 ---
 
 ## Kết quả đạt được
