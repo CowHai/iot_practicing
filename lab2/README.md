@@ -28,7 +28,7 @@ pip install pika
 
 ---
 
-## Cách chạy từng chương trình
+## Quy trình chạy từng chương trình
 
 ### Bài 1 – Gửi và nhận thông điệp cơ bản (Direct Queue)
 
@@ -75,8 +75,8 @@ python sensor_publisher_bai2.py
 **Kết quả mong đợi:**
 - Sensor Publisher gửi JSON `{ device_id, temperature, humidity, timestamp }` vào queue `sensor_data_queue` mỗi **3 giây**
 - Monitor Consumer nhận, in ra `Device / Temperature / Humidity` và cảnh báo:
-  - Nhiệt độ > **35 °C** → `CANH BAO: Nhiet do cao`
-  - Độ ẩm < **40 %** → `CANH BAO: Do am thap`
+  - Nhiệt độ > **35 °C** → `CẢNH BÁO: Nhiệt độ cao`
+  - Độ ẩm < **40 %** → `CẢNH BÁO: Độ ẩm thấp`
 
 ![alt text](./capture_images/bai2/image.png)
 
